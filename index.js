@@ -16,7 +16,7 @@ mongoose.connect('mongodb+srv://Weather123:change123@cluster0.k0bgc2r.mongodb.ne
 .then(()=> console.log("DB Connected"))
 .catch((err) => console.log("Db error =>", err));
 
-app.listen(5000,() => console.log("Working on port 5000"));
+app.listen(3000,() => console.log("Working on port 5000"));
 
 
 
